@@ -4,12 +4,15 @@ steps to push any file on the github
 --> step-1: git init
 --> step-2: git add * file ka naam *
 --> step- optional: git log --oneline
---> step-3: git remot add origin * https://github.com/prabhash-j/gitgithublearn *
+--> step-3: git remote add origin * https://github.com/prabhash-j/gitgithublearn *
         LINK KE LIYEE:-repository open karo top mai header mai github.com par click karna hai
         whaa jo link aayegaa oose yaa copy paste karna hai
 --> step-4: run command ( git remote -v )
             agar galti se koi or repository ka link attach kr diyaa hai toh,
-            run command ( git remove remote origin )
+            run command ( git remove remote origin ),
+            iss command se ham check kar sakte hai, 
+            ki konsa link ssh waala yaa https waala link se git par push kar rhe hai
+            
 --> step-5: finally git par push karne ke liyee run command ( git push -u origin main )
 
 
